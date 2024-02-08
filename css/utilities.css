@@ -20,7 +20,7 @@
     border-radius: 5px;
 }
 
-.btn {
+.btn:hover {
     opacity: 0.9;
 }
 
