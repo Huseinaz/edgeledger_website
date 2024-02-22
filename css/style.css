@@ -196,3 +196,26 @@ img {
 .footer .social > * {
     margin-right: 30px;
 }
+
+/* Mobile */
+
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .felx-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .team img {
+        width: 70%;
+    }
+}
